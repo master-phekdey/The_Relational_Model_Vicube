@@ -1,0 +1,110 @@
+{
+    "version": "1.0",
+    "http_Status": "OK",
+    "status_Code": "Success",
+    "message": "Data retrieved successfully",
+    "date_Time": "2024-09-24 14:20:57",
+    "user": "PHORN PHEKDEY",
+    "data": [
+        {
+            "id": "1",
+            "question": "A relational database consists of a collection of",
+            "answer_1": "Tables",
+            "answer_2": "Fields",
+            "answer_3": "Records",
+            "answer_4": "Keys",
+            "correct_answer": "a",
+            "explanation": "Fields are the column of the relation or tables. Records are each row in a relation. Keys are the constraints in a relation."
+        },
+        {
+            "id": "2",
+            "question": "A ________ in a table represents a relationship among a set of values.",
+            "answer_1": "Column",
+            "answer_2": "Key",
+            "answer_3": "Row",
+            "answer_4": "Entry",
+            "correct_answer": "c",
+            "explanation": "Column has only one set of values. Keys are constraints and row is one whole set of attributes. Entry is just a piece of data."
+        },
+        {
+            "id": "3",
+            "question": "The term _______ is used to refer to a row.",
+            "answer_1": "Attribute",
+            "answer_2": "Tuple",
+            "answer_3": "Field",
+            "answer_4": "Instance",
+            "correct_answer": "b",
+            "explanation": "Tuple is one entry of the relation with several attributes which are fields."
+        },
+        {
+            "id": "4",
+            "question": "The term attribute refers to a ___________ of a table.",
+            "answer_1": "Record",
+            "answer_2": "Column",
+            "answer_3": "Tuple",
+            "answer_4": "Key",
+            "correct_answer": "b",
+            "explanation": "Attribute is a specific domain in the relation which has entries of all tuples."
+        },
+        {
+            "id": "5",
+            "question": "For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.",
+            "answer_1": "Domain",
+            "answer_2": "Relation",
+            "answer_3": "Set",
+            "answer_4": "Schema",
+            "correct_answer": "a",
+            "explanation": "The values of the attribute should be present in the domain. Domain is a set of values permitted."
+        },
+        {
+            "id": "6",
+            "question": "Database __________ which is the logical design of the database, and the database _______ which is a snapshot of the data in the database at a given instant in time.",
+            "answer_1": "Instance, Schema",
+            "answer_2": "Relation, Schema",
+            "answer_3": "Relation, Domain",
+            "answer_4": "Schema, Instance",
+            "correct_answer": "d",
+            "explanation": "Instance is an instance of time and schema is a representation."
+        },
+        {
+            "id": "7",
+            "question": "Course(course_id,sec_id,semester)",
+            "answer_1": "Relations, Attribute",
+            "answer_2": "Attributes, Relation",
+            "answer_3": "Tuple, Relation",
+            "answer_4": "Tuple, Attributes",
+            "correct_answer": "b",
+            "explanation": "The relation course has a set of attributes course_id,sec_id,semester ."
+        },
+        {
+            "id": "8",
+            "question": "Department (dept name, building, budget) and Employee (employee_id, name, dept name, salary)",
+            "answer_1": "Attributes of common",
+            "answer_2": "Tuple of common",
+            "answer_3": "Tuple of distinct",
+            "answer_4": "Attributes of distinct",
+            "correct_answer": "c",
+            "explanation": "Here the relations are connected by the common attributes."
+        },
+        {
+            "id": "9",
+            "question": "A domain is atomic if elements of the domain are considered to be ____________ units.",
+            "answer_1": "Different",
+            "answer_2": "Indivisbile",
+            "answer_3": "Constant",
+            "answer_4": "Divisible",
+            "correct_answer": "b",
+            "explanation": "None."
+        },
+        {
+            "id": "10",
+            "question": "The tuples of the relations can be of ________ order.",
+            "answer_1": "Any",
+            "answer_2": "Same",
+            "answer_3": "Sorted",
+            "answer_4": "Constant",
+            "correct_answer": "a",
+            "explanation": "The values only count. The order of the tuples does not matter."
+        }
+    ]
+}
